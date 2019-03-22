@@ -110,7 +110,7 @@
     </div>
 
     <?php
-    require_once $viewName . ".php";
+    require_once "Contents/" . $viewName . ".php";
     ?>
 
     <div id="calendar">
