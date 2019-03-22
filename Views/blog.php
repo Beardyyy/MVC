@@ -1,5 +1,5 @@
 <div class="body">
-    <h3>CONTACT US</h3>
+    <h3>BLOG</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Donec scelerisque lorem tellus, a varius ex semper sit amet. Praesent mollis porta arcu, id blandit lorem. Aliquam erat volutpat. Donec et porta nulla. Curabitur mauris libero, imperdiet ac tortor nec, tincidunt ultricies mauris. Nulla facilisi.
 
         Quisque laoreet malesuada augue, quis gravida ex placerat quis. Quisque auctor ac enim ut imperdiet. Etiam dictum ultricies mi sed hendrerit. Fusce in ante sit amet mi aliquam convallis sit amet non libero. Aliquam pellentesque pulvinar purus, in pharetra velit faucibus tempus. Praesent efficitur porttitor arcu ac semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In iaculis massa eu eros tempor, vitae efficitur turpis porta. Donec eu vestibulum arcu.
