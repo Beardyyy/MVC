@@ -1,9 +1,7 @@
 <div class="body">
     <h3>CONTACT US</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Donec scelerisque lorem tellus, a varius ex semper sit amet. Praesent mollis porta arcu, id blandit lorem. Aliquam erat volutpat. Donec et porta nulla. Curabitur mauris libero, imperdiet ac tortor nec, tincidunt ultricies mauris. Nulla facilisi.
-
-        Quisque laoreet malesuada augue, quis gravida ex placerat quis. Quisque auctor ac enim ut imperdiet. Etiam dictum ultricies mi sed hendrerit. Fusce in ante sit amet mi aliquam convallis sit amet non libero. Aliquam pellentesque pulvinar purus, in pharetra velit faucibus tempus. Praesent efficitur porttitor arcu ac semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In iaculis massa eu eros tempor, vitae efficitur turpis porta. Donec eu vestibulum arcu.
-
-        Curabitur condimentum nec est pellentesque tincidunt. Fusce vehicula congue felis eu elementum. Duis non mi varius, facilisis nunc et, pharetra arcu. Ut enim mauris, ornare ut magna varius, ultricies pulvinar turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus urna nisl, quis fringilla justo blandit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Curabitur condimentum nec est pellentesque tincidunt. Fusce vehicula congue felis eu elementum. Duis non mi varius, facilisis nunc et, pharetra arcu. Ut enim mauris, ornare ut magna varius, ultricies pulvinar turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus urna nisl, quis fringilla justo blandit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2830.2198520817838!2d20.476530080950937!3d44.8170855602637!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1553423998631" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="">
+        <p>Address: Kruzni put 10, 11090,</br> Beograd</br> tel. 065/4061026</p>
+    </div>
 </div>

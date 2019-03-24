@@ -28,11 +28,12 @@ Route::set('contact-us', function(){
 
 
 
+
 Route::set('register', function(){
 
     ContactUs::CreateView('register');
+    Register::insert($username = $_POST['username'], $email = $_POST['email'], $password = $_POST['password']);
 });
-
 
 
 ?>
