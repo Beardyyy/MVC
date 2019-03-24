@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a3577ff-413d-4773-a910-29020a603f8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/AboutUs.php" afterPath="$PROJECT_DIR$/Controllers/AboutUs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Layout.php" afterPath="$PROJECT_DIR$/Views/Layout.php" />
-    </list>
+    <list default="true" id="8a3577ff-413d-4773-a910-29020a603f8a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +57,8 @@
       <file leaf-file-name="Layout.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/Layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1704">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -148,8 +145,8 @@
         <option value="$PROJECT_DIR$/Routes.php" />
         <option value="$PROJECT_DIR$/Controllers/Register.php" />
         <option value="$PROJECT_DIR$/Views/Contents/register.php" />
-        <option value="$PROJECT_DIR$/Views/Layout.php" />
         <option value="$PROJECT_DIR$/Controllers/AboutUs.php" />
+        <option value="$PROJECT_DIR$/Views/Layout.php" />
       </list>
     </option>
   </component>
@@ -160,7 +157,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
@@ -267,15 +264,15 @@
       <workItem from="1552720781376" duration="1925000" />
       <workItem from="1552809488850" duration="1193000" />
       <workItem from="1553214197204" duration="8106000" />
-      <workItem from="1553423671616" duration="8197000" />
+      <workItem from="1553423671616" duration="8290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42541000" />
+    <option name="totallyTimeSpent" value="42634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26852846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/Layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1704">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
         </state>
       </provider>
