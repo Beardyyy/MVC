@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="SitePoint">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <style>
 
