@@ -91,6 +91,10 @@
         h3 {
             text-align: center;
         }
+        .login {
+
+            background-color: #DED1C8;
+        }
 
 
 
@@ -98,7 +102,9 @@
 </head>
 
 <body>
-
+<div>
+    <a class="login" href="/MVC-new/register">Register</a><a class="login" href="">Login</a>
+</div>
 <div id="container">
     <div id="nav">
         <ul>
