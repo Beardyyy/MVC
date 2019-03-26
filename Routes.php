@@ -17,7 +17,7 @@ Route::set('about-us', function(){
 
 Route::set('blog', function(){
 
-    ContactUs::CreateView('blog');
+    Blog::CreateView('blog');
 });
 
 
@@ -31,8 +31,8 @@ Route::set('contact-us', function(){
 
 Route::set('register', function(){
 
-    ContactUs::CreateView('register');
-    Register::insert($username = $_POST['username'], $email = $_POST['email'], $password = $_POST['password']);
+    Register::CreateView('register');
+    Register::insert($_POST['username'], $_POST['email'], $_POST['password']);
 });
 
 
