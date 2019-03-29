@@ -120,7 +120,7 @@
     ?>
 
     <div id="calendar">
-        <p>Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Donec scelerisque lorem tellus, a varius ex semper sit amet. Praesent mollis porta arcu, id blandit lorem. Aliquam erat volutpat. </p>
+        <p>Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Donec scelerisque   lorem tellus, a varius ex semper sit amet. Praesent mollis porta arcu, id blandit lorem. Aliquam erat volutpat. </p>
     </div>
     <div style="clear: both"></div>
 
