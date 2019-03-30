@@ -103,7 +103,7 @@
 
 <body>
 <div>
-    <a class="login" href="/MVC-new/register">Register</a><a class="login" href="">Login</a>
+    <a class="login" href="/MVC-new/register">Register</a><a class="login" href="/MVC-new/login">Login</a>
 </div>
 <div id="container">
     <div id="nav">

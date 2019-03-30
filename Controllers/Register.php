@@ -2,23 +2,37 @@
 
 class Register extends Controller{
 
-    public static function insert($username, $email, $password){
 
-        $username = stripslashes($username);
-        $email = stripslashes($email);
-        $password = stripslashes($password);
 
-        $username = strip_tags(trim($username));
-        $email = strip_tags(trim($email));
-        $password = strip_tags(trim($password));
+    public static function check(){
 
-        $query = "INSERT INTO users (username, email, password) VALUES ('". $username ."', '". $email ."', '". $password ."')";
 
-        $q = self::connect()->prepare($query);
-        $q->execute();
 
-        echo "Radi!!!";
+        if($_POST['submit']) {
+
+
+
+            if ($_POST['username'] != "" && $_POST['email'] != "" && $_POST['password'] != "") {
+
+                $username = stripslashes($_POST['username']);
+                    $email = stripslashes($_POST['email']);
+                        $password = stripslashes($_POST['password']);
+
+                $username = strip_tags(trim($username));
+                    $email = strip_tags(trim($email));
+                        $password = strip_tags(trim($password));
+
+                ModelRegister::insert($username, $email, $password);
+
+
+            } else {
+
+                echo "You must enter all data!";
+            }
+        }
     }
+
+
 }
 
 ?>
