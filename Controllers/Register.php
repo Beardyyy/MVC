@@ -8,7 +8,7 @@ class Register extends Controller{
 
 
 
-        if($_POST['submit']) {
+        if(isset($_POST['submit'])) {
 
 
 
@@ -24,6 +24,7 @@ class Register extends Controller{
 
                 ModelRegister::insert($username, $email, $password);
 
+                echo "Succesfuly registered!";
 
             } else {
 

@@ -9,7 +9,7 @@ class ModelLogin extends Controller{
 
 
 
-            $query = "SELECT * FROM users WHERE email=:email AND password=:password";
+            $query = "SELECT username FROM users WHERE email=:email AND password=:password";
 
             $q = self::connect()->prepare($query);
             $q->bindParam('email', $email, PDO::PARAM_STR);
@@ -22,8 +22,9 @@ class ModelLogin extends Controller{
             if($count == 1 && !empty($row)) {
 
                 print_r($row);
-                print_r($count);
-                echo "Login success!!!";
+
+                $username = $row[0];
+                echo "You are logged in succesfuly " . $username;
 
             }else{
 

@@ -1,9 +1,7 @@
-<div class="body">
-    <h3>HOME</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Donec scelerisque lorem tellus, a varius ex semper sit amet. Praesent mollis porta arcu, id blandit lorem. Aliquam erat volutpat. Donec et porta nulla. Curabitur mauris libero, imperdiet ac tortor nec, tincidunt ultricies mauris. Nulla facilisi.
-
-        Quisque laoreet malesuada augue, quis gravida ex placerat quis. Quisque auctor ac enim ut imperdiet. Etiam dictum ultricies mi sed hendrerit. Fusce in ante sit amet mi aliquam convallis sit amet non libero. Aliquam pellentesque pulvinar purus, in pharetra velit faucibus tempus. Praesent efficitur porttitor arcu ac semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In iaculis massa eu eros tempor, vitae efficitur turpis porta. Donec eu vestibulum arcu.
-
-        Curabitur condimentum nec est pellentesque tincidunt. Fusce vehicula congue felis eu elementum. Duis non mi varius, facilisis nunc et, pharetra arcu. Ut enim mauris, ornare ut magna varius, ultricies pulvinar turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus urna nisl, quis fringilla justo blandit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Curabitur condimentum nec est pellentesque tincidunt. Fusce vehicula congue felis eu elementum. Duis non mi varius, facilisis nunc et, pharetra arcu. Ut enim mauris, ornare ut magna varius, ultricies pulvinar turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus urna nisl, quis fringilla justo blandit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus</p>
-</div>
+<div class="col-4 pt-4">
+	    <img class="img-fluid height: auto rounded width:100% shadow-lg" src="PICTURES/hacker.jpg" alt="Cinque Terre">
+	</div>
+	<div class="col-5 p-5 ml-4 rounded-circle shadow-lg text-center">
+	    <h3>Title</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in. Quisque gravida tortor neque, a convallis eros iaculis in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet nunc ac ante pellentesque mollis. Quisque gravida tortor neque, a convallis eros iaculis in</p>
+	</div>

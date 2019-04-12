@@ -5,9 +5,12 @@ class Login extends Controller{
 
     public static function check(){
 
-        if($_POST['submit']) {
+        if(isset($_POST['email']) && isset($_POST['password'])) {
 
-            if ($_POST['email'] != "" && $_POST['password'] != "") {
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+
+            if ($email != "" && $password != "") {
 
                 $email = stripslashes($_POST['email']);
                 $password = stripslashes($_POST['password']);
@@ -21,6 +24,7 @@ class Login extends Controller{
 
                 echo "You must enter all required data!";
             }
+
         }
     }
 }

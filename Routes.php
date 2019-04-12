@@ -39,6 +39,7 @@ Route::set('register', function(){
 Route::set('login', function(){
 
     Login::CreateView('login');
+
     Login::check();
 });
 
