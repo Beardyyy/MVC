@@ -1,4 +1,7 @@
 <!doctype html>
+<?php
+session_start();
+?>
 
 <html lang="en">
 <head>
@@ -65,7 +68,20 @@
         login/register
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="/MVC-new/login">login</a>
+
+          <?php
+          if($_SESSION['user_id'] != ""){
+             ?>
+              <a class="dropdown-item" href="/MVC-new/logout">logout</a>
+              <?php
+          }else{
+              ?>
+              <a class="dropdown-item" href="/MVC-new/login">login</a>
+          <?php
+          }
+          ?>
+
+
         <a class="dropdown-item" href="/MVC-new/register">register</a>
       </div>
     </li>
@@ -100,7 +116,23 @@
 </div>
 </div>
 
-<div class="row p-5 justify-content-center">
+
+    <?php
+
+    if(is_null($_SESSION['user_id'])){
+
+        echo "Ne radi sesija";
+    }else{
+
+        print_r($_SESSION);
+        echo "Radi sesija";
+    }
+
+    ?>
+
+
+
+    <div class="row p-5 justify-content-center">
     <div class="col-3 p-5 content-center text-center bg-light shadow-lg  rounded-circle">
 	    <div>
 	    <img class="img-fluid rounded" src="img/git.png" alt="Cinque Terre">

@@ -14,7 +14,8 @@ class ModelRegister extends Controller{
         $q->execute();
 
         print_r($q->execute());
-        echo "Registered!!!";
+
+        echo "You are registered, please login!!!";
     }
 }
 
