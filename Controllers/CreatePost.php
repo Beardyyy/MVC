@@ -22,9 +22,10 @@ class CreatePost extends Controller{
                 $title = strip_tags(trim($title));
                 $content = strip_tags(trim($content));
 
+                echo "Dovde ide i ne dalje!!!";
 
-                print_r(ModelRegister::insert($username, $email, $password));
-                ModelRegister::insert($username, $email, $password);
+                //print_r(ModelCreatePost::create($title, $content));
+                ModelCreatePost::create($title, $content);
 
 
                 echo "Succesfuly posted!";

@@ -6,7 +6,7 @@
         </div>
         <div class="form-group">
             <label for="content">Content</label>
-            <input type="text" name="content" class="form-control" aria-describedby="emailHelp" placeholder="Content...">
+            <input type="text" name="content" class="form-control" placeholder="Content...">
 
         </div>
         <button type="submit" class="btn btn-primary">Create</button>

@@ -45,9 +45,9 @@ Route::set('login', function(){
 
 Route::set('create-post', function(){
 
-    Login::CreateView('createPost');
+    CreatePost::CreateView('createPost');
 
-    Login::check();
+    CreatePost::create();
 });
 
 Route::set('logout', function(){

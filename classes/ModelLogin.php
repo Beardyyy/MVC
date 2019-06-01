@@ -28,6 +28,7 @@ class ModelLogin extends Controller{
 
                 $_SESSION['user_id'] = $row[0]['id'];
                 $_SESSION['name'] = $row[0]['username'];
+                print_r($_SESSION['user_id']);
                 //header("Location: /MVC-new");
                 //print_r($_SESSION);
 

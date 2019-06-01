@@ -19,7 +19,9 @@ class Login extends Controller{
                 $email = strip_tags(trim($email));
                 $password = strip_tags(trim($password));
 
+
                 ModelLogin::login($email, $password);
+
 
             } else {
 
