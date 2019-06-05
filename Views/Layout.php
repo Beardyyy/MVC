@@ -56,7 +56,7 @@ session_start();
       <a class="nav-link" href="/MVC-new/about-us">ABOUT</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/MVC-new/blog">PROJECTS</a>
+      <a class="nav-link" href="/MVC-new/blog">BLOG</a>
     </li>
 	<li class="nav-item">
       <a class="nav-link" href="/MVC-new/contact-us">CONTACT</a>

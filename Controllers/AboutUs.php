@@ -7,11 +7,10 @@ class AboutUs extends Controller
     {
 
 
-        //print_r(self::query("SELECT * FROM users"));
+        print_r(self::query("SELECT * FROM users"));
     }
 
 
 
 }
 
-?>

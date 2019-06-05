@@ -7,24 +7,43 @@ Route::set('index.php', function(){
 
 
 
+
 Route::set('about-us', function(){
 
     AboutUs::CreateView('aboutUs');
-    AboutUs::test();
+
 });
+
 
 
 
 Route::set('blog', function(){
 
-    Blog::CreateView('blog');
+    $post = Blog::fetchPost();
+    Blog::CreateView('blog', $post);
+
+
 });
+
+
+
+
+Route::set('blog/$a', function(){
+
+    $post = Blog::onePost($a);
+    Blog::CreateView('blog', $post);
+
+
+});
+
+
 
 
 Route::set('contact-us', function(){
 
     ContactUs::CreateView('contactUs');
 });
+
 
 
 
@@ -36,12 +55,16 @@ Route::set('register', function(){
 
 
 
+
 Route::set('login', function(){
 
     Login::CreateView('login');
 
     Login::check();
 });
+
+
+
 
 Route::set('create-post', function(){
 
@@ -50,9 +73,11 @@ Route::set('create-post', function(){
     CreatePost::create();
 });
 
+
+
+
 Route::set('logout', function(){
 
     Logout::out();
 
 });
-?>
